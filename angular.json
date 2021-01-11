@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "monitorias"
+    }
+  },
+  "defaultProject": "monitorias",
+  "cli": {
+    "analytics": "9356bb3b-72b5-46bb-ba8c-c9df7e0baf64"
+  }
 }

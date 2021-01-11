@@ -1,0 +1,17 @@
+:host {
+  .container {
+    background-image: url("/assets/images/goku.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .card-title {
+    text-align: center;
+
+    span {
+      font-size: 12px;
+      display: block;
+    }
+  }
+}
+
