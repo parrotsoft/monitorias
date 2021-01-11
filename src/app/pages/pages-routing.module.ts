@@ -5,7 +5,8 @@ import {LayoutComponent} from '../shared/layout/layout.component';
 const routes: Routes = [
   { path: 'pages', component: LayoutComponent,
     children: [
-      { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) }
+      { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
+      { path: 'academy', loadChildren: () => import('./academy/academy.module').then(m => m.AcademyModule )}
     ]}
 ];
 

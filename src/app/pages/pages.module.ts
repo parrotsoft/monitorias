@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import {HomeModule} from './home/home.module';
 import {SharedModule} from '../shared/shared.module';
+import {AcademyModule} from './academy/academy.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import {SharedModule} from '../shared/shared.module';
     CommonModule,
     PagesRoutingModule,
     HomeModule,
-    SharedModule
+    SharedModule,
+    AcademyModule
   ]
 })
 export class PagesModule { }
